@@ -1,4 +1,5 @@
 import ArrayOfObject from "./ArrayOfObject";
+import DataFetch from "./DataFetch";
 import User from "./User";
 import UserObject from "./UserObject";
 
@@ -41,6 +42,9 @@ function UserDefinedPropsTypes() {
             <UserObject user={user1}/>
             {/* Array of object */}
             <ArrayOfObject users={users}/>
+
+            {/* Data Fetch */}
+            <DataFetch status="success"/>
         </div>
     );
 }

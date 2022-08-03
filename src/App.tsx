@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       {/* <Counter/> */}
       {/* <BuiltInPropsTypes/> */}
-      <UserDefinedPropsTypes/>
+      {/* <UserDefinedPropsTypes/> */}
     </div>
   );
 }
