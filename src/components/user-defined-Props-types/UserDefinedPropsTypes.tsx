@@ -1,3 +1,4 @@
+import ArrayOfObject from "./ArrayOfObject";
 import User from "./User";
 import UserObject from "./UserObject";
 
@@ -9,6 +10,20 @@ function UserDefinedPropsTypes() {
         isStudent: true,
         lang: ["Bangla", "English", "Hindi"]
     }
+
+    // Array of object
+    const users = [
+        {
+            id: 1,
+            name: "Rafi",
+            email: "rafi@gmail.com"
+        },
+        {
+            id: 2,
+            name: "Rakib",
+            email: "rakib@gmail.com"
+        }
+    ]
 
     return (
         <div>
@@ -24,6 +39,8 @@ function UserDefinedPropsTypes() {
             <User name="Tasib" age={20} isStudent={true} lang={["Bangla", "English"]}/>
             {/* object type */}
             <UserObject user={user1}/>
+            {/* Array of object */}
+            <ArrayOfObject users={users}/>
         </div>
     );
 }
