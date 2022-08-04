@@ -1,5 +1,6 @@
 import BuiltInPropsTypes from './components/built-in-props-types/BuiltInPropsTypes';
 import Counter from './components/Counter';
+import FormEvents from './components/events/FormEvents';
 import TypeingEvent from './components/events/TypeingEvent';
 import UseState from './components/hooks/useState/UseState';
 import TypeingChildrenProps from './components/typing-children-props/TypeingChildrenProps';
@@ -16,7 +17,8 @@ function App() {
       {/* <TypeingChildrenProps/> */}
       {/* <TypeingStyleProps/> */}
       {/* <UseState/> */}
-      <TypeingEvent/>
+      {/* <TypeingEvent/> */}
+      <FormEvents/>
     </div>
   );
 }
